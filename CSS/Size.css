@@ -3,10 +3,9 @@ body {
     overflow: hidden
 }
 .title-image {
-    width: 10vw;
-    height: 10vh;
-    display: flex;
-    justify-content: top;
-    align-items: top;
-    place-content: top;
+    display: block;
+    width: 30vw;
+    max-width: 400px;
+    height: auto;
+    margin: 5vh auto 0;
 }

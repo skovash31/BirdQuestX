@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background: url("BQX assets/Menus/CharcterSelectorMenu.jpg") no-repeat center center fixed;
+    background: url("../BQX assets/Menus/CharcterSelectorMenu.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 

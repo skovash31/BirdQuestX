@@ -18,6 +18,18 @@ h1 {
 
 .start-button {
     display: block;
+    width: 22vw;
+    max-width: 300px;
+    height: auto;
     margin: 3rem auto 0;
+    cursor: pointer;
+}
+
+.shop-button {
+    display: block;
+    width: 16vw;
+    max-width: 220px;
+    height: auto;
+    margin: 1.5rem auto 0;
     cursor: pointer;
 }
