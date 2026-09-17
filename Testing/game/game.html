@@ -12,10 +12,6 @@
         <img src="../../BQX assets/Main Page/BirdQuestX Title.png" alt="BirdQuestX" class="title-logo">
         <h2 class="select-title">Choose Your Bird</h2>
         <div class="character-grid">
-            <div class="character-card" data-character="kirby">
-                <img src="../../BQX assets/Game Assets/Birds/Admin/Kirby/kirby Sprites.png" alt="Kirby">
-                <p>Kirby</p>
-            </div>
             <div class="character-card" data-character="chicken">
                 <img src="../../BQX assets/Game Assets/Birds/Chicken/Chicken Idle.png" alt="Chicken">
                 <p>Chicken</p>
@@ -31,7 +27,7 @@
         <div class="menu-options">
             <div class="option-group">
                 <h3>Join with Code</h3>
-                <input type="text" id="room-code" placeholder="Enter room code">
+                <input type="text" id="room-code" placeholder="4-letter code" maxlength="4" autocapitalize="characters">
                 <button id="join-code-btn" class="game-btn">Join Room</button>
             </div>
             <div class="option-group">
@@ -70,6 +66,11 @@
                 </div>
                 <button class="control-btn down" data-key="s">▼</button>
             </div>
+        </div>
+
+        <div id="action-controls">
+            <button id="attack-btn" class="control-btn attack-btn">⚔</button>
+            <button id="block-btn" class="control-btn block-btn">🛡</button>
         </div>
     </div>
 
